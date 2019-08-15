@@ -13,5 +13,10 @@
             "email": "dangbadung7576@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra" : {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
