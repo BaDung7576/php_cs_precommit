@@ -1,0 +1,16 @@
+{
+    "name": "BaDung7576/php_cs_precommit",
+    "description": "Check code php-cs-fixer and phpcpd before commit",
+    "type": "scripts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dang Ba Dung",
+            "email": "Dangbadung7576@gmail.com"
+        }
+    ],
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.15",
+        "sebastian/phpcpd": "^4.1"
+    }
+}
