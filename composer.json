@@ -13,10 +13,10 @@
             "email": "dangbadung7576@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "monolog/monolog": "^1.23"
+    },
     "extra" : {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
+        "class": "Plugin"
     }
 }
