@@ -7,17 +7,17 @@ Auto installed git pre-commit hook for running Php-cs-fixer and Phpcpd code chec
   - Check code phpcpd
 ___
 ## Installation
-Install `badung7576/php_cs_precommit` with composer require command:
+Install `badung7576x/php_cs_precommit` with composer require command:
 ```sh
-$ composer require badung7576/php_cs_precommit
+$ composer require badung7576x/php_cs_precommit
 ```
 To enable code sniff, аdd to "post-install-cmd" and "post-update-cmd" in `composer.json` installation script:
 ```
 "post-install-cmd": [
-    "sh ./vendor/BaDung7576/php_cs_precommit/src/setup.sh"
+    "sh ./vendor/badung7576x/php_cs_precommit/src/setup.sh"
 ],
 "post-update-cmd": [
-    "sh ./vendor/BaDung7576/php_cs_precommit/src/setup.sh"
+    "sh ./vendor/badung7576x/php_cs_precommit/src/setup.sh"
 ]
 ```
 
